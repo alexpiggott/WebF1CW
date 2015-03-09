@@ -1,0 +1,106 @@
+/*Nav bar*/
+html {
+	background-color: #F6F6F6
+}
+
+nav {
+	background-color: #0052CC;
+	width: 160px;
+}
+
+nav ul {
+	font-family: verdana;
+	position: fixed;
+}
+
+nav ul li {
+	display: block;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 7px 5px 3px;
+	background: #0052CC;
+	color: #ffffff;  
+	height: 30px;
+	width: 160px;
+	text-align: center;
+	border-style: outset;
+	border-width: 2px;
+	border-color: transparent; /*Sets a transparent border so that it can be modified in 'hover'*/
+}
+
+nav ul li a:hover {
+	background: #D1E0FF;
+	color: #000000;
+	border-color: #000000
+}
+
+/*End nav bar*/
+
+header {
+	font-family: verdana;
+	color: #000099;
+	text-shadow: 2px 2px 2px #A6A6A6;
+	position: absolute;
+	left: 250px;
+	top: 0px;
+}
+
+header h1 {
+	font-size: 200%;
+}
+
+header h2 {
+	font-size: 150%;
+}
+
+section {
+	font-family: sans-serif;
+	position: relative;
+	right: -250px;
+	top: 120px;
+	margin-right: 250px; /*Removes the 250px of empty space caused by relative positioning*/
+	word-wrap: break-word;
+	max-width: 50em;
+}
+
+section.nolinespace {
+	line-height: 20%; /*Decreases line spacing for a list without bullet points e.g. address*/
+}
+
+section.worklog h1 {
+	font-family: verdana;
+	color: #000099;
+	text-shadow: 1px 1px 1px #A6A6A6;
+	font-size: 110%
+}
+
+section.worklog h2 {
+	font-family: verdana;
+	color: #000099;
+	font-size: 100%
+}
+
+section h1 {
+	font-size: 180%
+}
+
+section h2 {
+	font-size: 130%
+}
+
+section.validate {
+	font-family: verdana;
+	background: #C1C1C1;
+	padding: 3px 10px;
+	margin: 10px 3px;
+	line-height: 0;
+	border-radius: 10px;
+}
+
+section.validate a {
+	color: #000099;
+	text-decoration: none;
+}
